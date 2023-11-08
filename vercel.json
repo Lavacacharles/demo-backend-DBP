@@ -2,7 +2,7 @@
     "buildCommand": null, 
     "devCommand": "./mvnw spring-boot:run",
     "framework": null,
-    "outputDirectory": "Other",
+    "outputDirectory": "target",
     "routes": [
         {
           "src": "/",
@@ -10,7 +10,7 @@
         },
         {
             "src":"/api/auth/signup",
-            "dest":"/src/main/java/com/example/demo/Authentification/auth/AuthController"
+            "dest":"/api/auth/signup"
         }
       ]
 
